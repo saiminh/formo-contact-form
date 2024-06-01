@@ -1,0 +1,29 @@
+.formo-contact-form {
+  width: 100%;
+
+  & input[type="text"], 
+  & input[type="email"], 
+  & textarea {
+    width: 100%;
+  }
+  
+  .wpcf7 form .wpcf7-response-output {
+    margin: 0;
+    padding: 2em;
+    border-color: var(--wp--preset--color--formo-blue);
+    border-radius: 1rem;
+    font-size: var(--wp--preset--font-size--small);
+  }
+  .wpcf7 form.invalid .wpcf7-response-output, 
+  .wpcf7 form.unaccepted .wpcf7-response-output, 
+  .wpcf7 form.payment-required .wpcf7-response-output {
+    border-color: var(--wp--preset--color--formo-peach);
+    color: var(--wp--preset--color--formo-peach);
+  }
+  .wpcf7-not-valid-tip {
+    color: var(--wp--preset--color--formo-peach);
+    font-size: var(--wp--preset--font-size--small);
+    padding-left: 1rem;
+  }
+
+}

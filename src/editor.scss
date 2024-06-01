@@ -1,0 +1,36 @@
+.formo-contact-form-name {
+  background-color: var(--wp--preset--color--formo-blue);
+  padding: .5rem;
+
+  & label {
+    color: white;
+  }
+
+  & .formo-contact-form-content-label {
+    color: white;
+    margin: 1em 0 0 0;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 1.4;
+    border-top: 1px solid white;
+    padding-top: 0.5em;
+    text-transform: uppercase;
+  }
+}
+
+.wp-block-create-block-formo-contact-form {
+  width: 100%;
+  background-color: white;
+  border: 1px solid var(--wp--preset--color--formo-blue);
+  overflow: hidden;
+
+  & input[type="text"], 
+  & input[type="email"], 
+  & textarea {
+    width: 100%;
+  }
+
+  & .block-editor-block-list__layout {
+    padding: 1em;
+  }
+}
